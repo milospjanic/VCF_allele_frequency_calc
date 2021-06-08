@@ -14,7 +14,7 @@ for filename in os.listdir(
         continue
     filepath = os.path.join(
         os.getcwd(),
-        "tina_vcf",
+        "test.vcf",
         filename)
 
     # filepath
@@ -71,7 +71,7 @@ for filename in os.listdir(
 
 #print (summary)
 
-summary_file = os.path.join(os.getcwd(), "tina.output")
+summary_file = os.path.join(os.getcwd(), "test.output")
 
 w = csv.writer(open(summary_file, "w"))
 for key, val in summary.items():
