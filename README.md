@@ -3,7 +3,7 @@
 
 For a test vcf of the following format, the script will output the frequency of the reference allele.
 
-<pre>
+
 ##contig=<ID=chr2,length=243199373>
 ##contig=<ID=chr3,length=198022430>
 ##contig=<ID=chr4,length=191154276>
@@ -29,4 +29,4 @@ chr1    11205058    rs1057079    T    A    100    PASS    DP=12;BC=105,96,0,1;co
 chr1    11253467    rs28991008    A    G    100    PASS    DP=90;BC=130,0,0,86;GMAF=A|0.02516;AA=C;AF1000G=0.02516;phyloP=0.241;CSQT=1|MTOR|NM_004958.3|intron_variant,1|ANGPTL7|NM_021146.3|intron_variant    GT:GQ:AD:DP:VF:NL:SB:NC    0/1:100:38,52:90:0.578:20:-100.0000:0.0000
 chr1    11288758    rs1064261    A    G    100    PASS    DP=93;BC=122,0,0,111;cosmic=1|COSM4142152;EVS=0.617561|95|6503;GMAF=G|0.2995;AA=A;AF1000G=0.700479;phyloP=-0.406;CSQT=1|MTOR|NM_004958.3|synonymous_variant    GT:GQ:AD:DP:VF:NL:SB:NC    1/1:100:0,93:93:1.000:20:-100.0000:0.0106
 chr1    11297762    rs7524202    A    G    100    PASS    DP=48;BC=124,0,0,110;GMAF=T|0.2991;AA=C;AF1000G=0.700879;phyloP=-0.016;CSQT=1|MTOR|NM_004958.3|intron_variant    GT:GQ:AD:DP:VF:NL:SB:NC    1/1:100:0,48:48:1.000:20:-100.0000:0.0204
-</pre>
+
